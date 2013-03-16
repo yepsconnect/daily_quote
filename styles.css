@@ -22,6 +22,8 @@ main {
 
 .quote-container {
   position: relative;
+  opacity: 1;
+  transition: opacity 0.5s ease;
 }
 
 p#quote {
@@ -37,6 +39,7 @@ p#quote {
   border: none;
   cursor: pointer;
   border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
 #new-quote-btn:hover {
